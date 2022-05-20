@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --heading-font: 'Kalam', sans-serif;
+    --body-font: 'Source Sans Pro', sans-serif;
+    --font-color: #296BFF;
+    --font-color2: #6D9AFF;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+aside {
+    background-color: #8496be;
+   background-image: url(./img/aside.png);
+   width: 35%;
+   max-height: 100vh;
+}
+main {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.login__form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+
+
+h1 {
+    color: var(--font-color);
+    margin-top: 130px;
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+}
+p {
+    margin-top: -5px;
+    color: var(--font-color);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+label {
+    color: var(--font-color);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 450px;
+    height: 35px;
+    margin-bottom: 33px;
+    border: 1.2px solid #296BFF;
+    border-radius: 8px;
+    padding: 6px;
+    padding-left: 14px;
+    font-family: var(--body-font);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #296BFF ; 
+    outline: none;
+}
+::placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color2);
+    font-family: var(--heading-font);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.login__button {
+    margin-top:95px;
+    width: 472px;
+    height: 55px;
+
+    background: #296BFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+}
+.linea {
+    width: 160px;
+    height: 0px;
+    border: 1px solid #296BFF;
+
+}
+.continue__text {
+    font-family: 'Source Sans Pro';
+    color: #296BFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.continue {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 50px;
+    gap: 20px;
+}
+.icon-box {
+    display: flex;
+    margin-top: 50px;
+    gap: 190px;
+}
