@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Tarjeta de crédito válida</title>
+</head>
+
+<body>
+    <aside class="aside2">
+    </aside>
+
+    <main class="second-screen">
+
+        <h1 class="heading-two">Agregar método de pago</h1>
+
+        <div class="card-img">
+            <img src="img/card.png">
+        </div>
+
+        <form>
+            <div class="validation__form" >
+              <label>CARD NUMBER</label>
+              <input class="input__2" type="input" placeholder="####  ####  ####  ####"  maxlength="16">
+              
+              <div class="validation__dates">
+                <div class="validation__date">
+                    <label>EXPERY</label>
+                    <input class="input__date" type="text" placeholder="MM / YY" maxlength="3">
+                </div>
+
+                <div class="validation__date">
+                    <label>CVV / CVC</label>
+                    <input class="input__date" type="text" placeholder="####" maxlength="3" >
+                </div>
+              </div>
+            </div>
+
+            <div class="buttons">
+                <button class="validation__button" type="button">Cancelar</button>
+                <button class="validation__button" type="button">Validar tarjeta</button>
+            </div>
+        </form>
+          
+    </main>
+</body>
+</html>
