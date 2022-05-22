@@ -48,8 +48,24 @@ const validator = {
      //return (total % 10 === 0) ? 'true' : 'false'
   },
 
-  maskify: function(){
+  maskify: function(creditCardNumber){
+    let newString = creditCardNumber.split('');
+    // cuando slice recibe un número negativo quiere decir que va de atrás hacia adelante
+    let lasFourDigits = newString.slice(-4);
 
+    if(creditCardNumber.length >= 0) {
+      // slice te devuelve un array con los dígitos extraídos
+      let newDigits = newString.slice(0,-4);
+      // recorremos este nuevo array
+      newDigits.map((e, index)=>{
+        // y reemplazamos el dígito por su index por un #
+        newDigits[index] = '#';
+      })
+      // unimos los dos arrays newDigits y lastFourDigits, esto nos
+      // devuelve un nuevo array, como se nos pide que sea un string
+      // lo unimos con join
+      return newDigits.concat(lasFourDigits).join('');
+    }
   }
 };
 
