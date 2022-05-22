@@ -23,12 +23,13 @@
         <form>
             <div class="validation__form" >
               <label>CARD NUMBER</label>
-              <input class="input__2" type="input" placeholder="####  ####  ####  ####"  maxlength="16">
-              
+              <input id="input" class="input__2" type="input" placeholder="####  ####  ####  ####"  maxlength="16">
+              <span id="mensaje"></span>
+
               <div class="validation__dates">
                 <div class="validation__date">
                     <label>EXPERY</label>
-                    <input class="input__date" type="text" placeholder="MM / YY" maxlength="3">
+                    <input class="input__date" type="text" placeholder="MM / YY" maxlength="4">
                 </div>
 
                 <div class="validation__date">
@@ -40,10 +41,11 @@
 
             <div class="buttons">
                 <button class="validation__button" type="button">Cancelar</button>
-                <button class="validation__button" type="button">Validar tarjeta</button>
+                <button class="validation__button" type="button" id="button" >Validar tarjeta</button>
             </div>
         </form>
           
     </main>
+    <script src="index.js" type="module"></script>
 </body>
 </html>

@@ -239,3 +239,13 @@ input {
     outline: none;
     border: none;
 }
+
+span {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #c1121f;
+}
