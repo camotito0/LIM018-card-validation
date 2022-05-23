@@ -5,7 +5,6 @@ const validator = {
     // Aquí a creditCardNumber los separamos por cada dígito y lo que hace esplit es devolverte un array nuevo con los digitos separados
     // y reverse invierte el orden de los digitos como se nos pide
     let newString = creditCardNumber.split('').reverse();
-
     //Aquí recorremos la nueva cadena con map
     newString.map((e, index) => {
       //Aquí detectamos a los dígitos que estan en posición par
@@ -32,27 +31,23 @@ const validator = {
         }
       }
     });
-
     // recorremos el array con los nuevos dígitos
     newString.map((e)=>{
       // aquí convertimos todos los string a number
       total += Number(e);
     })
 // la validación dice: si el modulo de total entre 10 es 0 entonces devuelve true o false
-    if (total % 10 === 0) {
+    if (total % 10 === 0 && creditCardNumber != ' ' && creditCardNumber != '') {
       return true;
     } else {
       return false;
     }
-
      //return (total % 10 === 0) ? 'true' : 'false'
   },
-
   maskify: function(creditCardNumber){
     let newString = creditCardNumber.split('');
     // cuando slice recibe un número negativo quiere decir que va de atrás hacia adelante
     let lasFourDigits = newString.slice(-4);
-
     if(creditCardNumber.length >= 0) {
       // slice te devuelve un array con los dígitos extraídos
       let newDigits = newString.slice(0,-4);

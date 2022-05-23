@@ -26,6 +26,10 @@ h1 {
 }
 
 /* screen-1 */
+.first-screen {
+    display: flex ;
+    width: 100%;
+}
  .aside-1 {
    background-image: url(./img/banner-1.png);
    background-repeat: no-repeat;
@@ -33,10 +37,13 @@ h1 {
    max-height: 100vh;
 }
 
-.first-screen {
+.login-screen {
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 70px;
 }
 
 .login__form {
@@ -108,7 +115,7 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    text-align: center;
+    margin-left: 160px;
 
     color: #296BFF;
 }
@@ -204,7 +211,7 @@ input {
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .validation__button {
@@ -246,6 +253,7 @@ span {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    text-align: center;
     color: #c1121f;
+    margin-top: -10px;
+    margin-bottom: 5px;
 }
