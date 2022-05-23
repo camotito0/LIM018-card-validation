@@ -434,3 +434,23 @@ Organización del Trabajo:
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
+
+Debe contener lo siguiente:
+
+Un título con el nombre de tu proyecto:
+* [Hefty's burgers Sign up project]
+Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* [Mi projecto se trata de un usuario creando su cuenta por primera vez para poder comprar comida, agrega un método de pago donde en esa pantalla se hace la validación de su tarjeta]
+La imagen final de tu proyecto.
+* [finalProject.png]
+Investigación UX:
+Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+* [los usuarios objetivos serían las personas que comprar procutos en vía online]
+Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+* [al crear una cuenta en la app y agregar el método de pago ya puedes empezar a comprar lo que gustes de la app.]
+Luego colocarás la foto de tu primer prototipo en papel.
+* [sketch.jpeg]
+Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+Imagen del prototipo final.
+* [prototype.png]
