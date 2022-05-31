@@ -4,6 +4,17 @@ import validator from './validator.js';
 let validateButton = document.getElementById('validationButton');
 let inputChange = document.getElementById('input');
 let cancelButton = document.getElementById('cancelButton');
+let docu = document.getElementById('car-validation');
+let docu2 = document.getElementById('first')
+let nextButton = document.getElementById('next');
+console.log(nextButton, 'hola');
+
+docu.style.display = "none";
+
+nextButton.addEventListener('click', function(){
+    docu2.style.display = "none";
+    docu.style.display = "flex";
+})
 
 cancelButton.addEventListener('click', function(){
     /* window.location.href = "index.html"; */
@@ -29,6 +40,6 @@ inputChange.addEventListener('input', function(){
             message = "Su tarjeta no es válida. Por favor ingrese los datos nuevamente"
         }
         result.innerHTML = message;
-    })    
+    })
 })
 //console.log(validator);
