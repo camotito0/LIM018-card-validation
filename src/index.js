@@ -7,7 +7,7 @@ let cancelButton = document.getElementById('cancelButton');
 let docu = document.getElementById('car-validation');
 let docu2 = document.getElementById('first')
 let nextButton = document.getElementById('next');
-console.log(nextButton, 'hola');
+//console.log(nextButton, 'hola');
 
 docu.style.display = "none";
 
